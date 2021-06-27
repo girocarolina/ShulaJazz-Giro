@@ -1,0 +1,38 @@
+@import '../base/variables';
+@import '../base/mapas';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.division {
+    @extend %linea-divisoria;
+    background-color: map-get($colores, acento );
+}
+.divisionDos {
+    @extend %linea-divisoria;
+    background-color: map-get($colores, negro );
+}
+.botonPrincipal {
+    color: map-get($colores, negro ) !important;
+    background-color: map-get($colores, acento ) !important;
+    transition: all 0.8s;
+    &:hover {
+        scale: 110%;
+        background-color: map-get($colores, blanco ) !important;    
+    }
+}
+.lineaTitulo {
+    width: 10rem;
+    padding: 0.2rem 0;
+    background: map-get($colores, acento );
+    margin: 0 auto;
+}
+.lineaTituloBlack {
+    width: 10rem;
+    padding: 0.2rem 0;
+    background: map-get($colores, negro );
+    margin: 0 auto;
+}

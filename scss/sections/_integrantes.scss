@@ -1,0 +1,9 @@
+/* PAGINA LOS INTEGRANTES */
+@import '../base/mapas';
+
+#todosLosIntegrantes {
+    background-color: map-get($colores, negro );
+    .cardColor {
+        background-color: map-get($colores, acento );
+    }
+}

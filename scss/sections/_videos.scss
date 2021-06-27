@@ -1,0 +1,9 @@
+/* TERCERA SECTION: VIDEOS */
+
+#videos {
+    background-color: map-get($colores , gris );
+    .youTube {
+        height: 50vh;
+        border-radius: map-get($colores , radio-puntas ) !important;
+    }
+}

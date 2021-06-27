@@ -1,0 +1,11 @@
+/* QUINTA SECTION: CONTACTO */
+
+#contacto {
+    background-color: map-get($colores , acento );
+}
+
+.imgContacto {
+    img {
+        border-radius: map-get($colores , radio-puntas );
+    }
+}

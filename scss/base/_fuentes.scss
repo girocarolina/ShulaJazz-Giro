@@ -1,0 +1,72 @@
+@import '../base/mapas';
+
+/* FUENTES */
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
+}
+
+@mixin fuentes ($font, $colorF) {
+    font-family: $font;
+    color: $colorF !important;
+}
+
+a {
+    @include fuentes('Montserrat-Bold', map-get($colores, blanco ) );
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover{
+        color: map-get($colores, negro ) !important;
+    }
+}
+
+h1 {
+    @include fuentes('Itim', map-get($colores, blanco ) );
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    @keyframes aparecer {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+}
+
+h2 {
+    @include fuentes('Itim', map-get($colores, blanco ) );
+    animation: animate__bounceInLeft;
+    animation-duration: 1s;
+}
+
+.error404 {
+    @include fuentes('Montserrat-Bold', map-get($colores, acento ) );
+    font-size: 10rem;
+    font-weight: 900;
+}
+
+.suberror404 {
+    @include fuentes('Montserrat-Bold', map-get($colores, negro ) );
+
+}
+
+.texterror404 {
+    @include fuentes('Montserrat-Bold', map-get($colores, negro ) );
+
+}
+
+.subtitulo {
+    @include fuentes('Montserrat-Regular', map-get($colores, negro ) );
+    font-size: 20px;
+}
+
+p{
+    @include fuentes('Montserrat-Regular', map-get($colores, blanco ) );
+}

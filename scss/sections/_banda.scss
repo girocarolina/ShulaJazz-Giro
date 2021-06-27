@@ -1,0 +1,16 @@
+/* SEGUNDA SECTION: LA BANDA */
+
+#laBanda {
+    background-color: map-get($colores, negro );
+
+    .imagenMedia {
+        img {
+            border-radius: map-get($colores , radio-puntas );
+        }
+    }
+}
+.galeriaBanda {
+    .imgBanda {
+        border-radius: map-get($colores , radio-puntas ) !important;
+    }
+}

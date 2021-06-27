@@ -1,0 +1,12 @@
+/* CUARTA SECTION: PROXIMOS SHOWS */
+
+#shows {
+    background-color: map-get($colores, negro );
+
+    .proximosShows {
+        img {
+            width: 100%;
+            border-radius: map-get($colores , radio-puntas );
+        }        
+    }
+}

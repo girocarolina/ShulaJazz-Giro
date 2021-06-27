@@ -1,0 +1,16 @@
+/* PRIMERA SECTION: BANNER */
+
+#bannerInicio {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .textBanner {
+        position: relative;
+        top: 30rem;
+        background-color: map-get($colores , negro );
+        width: 50%;
+    }
+}

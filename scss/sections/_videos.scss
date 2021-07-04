@@ -1,7 +1,11 @@
 /* TERCERA SECTION: VIDEOS */
 
 #videos {
-    background-color: map-get($colores , gris );
+    background-image: url(../images/portada.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     .youTube {
         height: 50vh;
         border-radius: map-get($colores , radio-puntas ) !important;

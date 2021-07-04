@@ -1,7 +1,11 @@
 /* QUINTA SECTION: CONTACTO */
 
 #contacto {
-    background-color: map-get($colores , acento );
+    background-image: url(../images/portada.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .imgContacto {

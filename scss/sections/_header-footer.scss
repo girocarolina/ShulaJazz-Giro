@@ -1,6 +1,6 @@
  /* HEARDER */
-.nav {
-    background-image: linear-gradient(#070707, #2c2c2c) !important ;
+header .nav {
+    background-image: linear-gradient(#070707, #2c2c2c) ;
 }
 .navbar-toggler {
     background-color: map-get($colores, acento ) !important;

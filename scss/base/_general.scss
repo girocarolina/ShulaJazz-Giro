@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .division {
     @extend %linea-divisoria;
     background-color: map-get($colores, acento );
@@ -28,11 +32,5 @@
     width: 10rem;
     padding: 0.2rem 0;
     background: map-get($colores, acento );
-    margin: 0 auto;
-}
-.lineaTituloBlack {
-    width: 10rem;
-    padding: 0.2rem 0;
-    background: map-get($colores, negro );
     margin: 0 auto;
 }

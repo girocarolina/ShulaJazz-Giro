@@ -1,11 +1,25 @@
 {
-  "name": "desafio11-shula-giro",
+  "name": "desafio15-shula-giro",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girocarolina/ShulaJazz-Giro.git"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/girocarolina/ShulaJazz-Giro/issues"
+  },
+  "homepage": "https://github.com/girocarolina/ShulaJazz-Giro#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.9"
+  }
 }

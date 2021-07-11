@@ -46,6 +46,17 @@ h2 {
     animation-duration: 1s;
 }
 
+h4 {
+    @include fuentes('Itim', map-get($colores, blanco ) );
+    font-style: italic;
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    @keyframes aparecer {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+}
+
 .error404 {
     @include fuentes('Montserrat-Bold', map-get($colores, acento ) );
     font-size: 10rem;

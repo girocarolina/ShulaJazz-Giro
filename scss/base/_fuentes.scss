@@ -31,7 +31,7 @@ a {
 }
 
 h1 {
-    @include fuentes('Itim', map-get($colores, blanco ) );
+    @include fuentes('Playfair Display', map-get($colores, blanco ) );
     animation-duration: 1.5s;
     animation-name: aparecer;
     @keyframes aparecer {
@@ -41,13 +41,11 @@ h1 {
 }
 
 h2 {
-    @include fuentes('Itim', map-get($colores, blanco ) );
-    animation: animate__bounceInLeft;
-    animation-duration: 1s;
+    @include fuentes('Playfair Display', map-get($colores, blanco ) );
 }
 
 h4 {
-    @include fuentes('Itim', map-get($colores, blanco ) );
+    @include fuentes('Playfair Display', map-get($colores, blanco ) );
     font-style: italic;
     animation-duration: 1.5s;
     animation-name: aparecer;
@@ -56,7 +54,9 @@ h4 {
         100% { opacity: 1; }
     }
 }
-
+.showsH2 {
+    @include fuentes('Montserrat-Bold', map-get($colores, negro ) );
+}
 .error404 {
     @include fuentes('Montserrat-Bold', map-get($colores, acento ) );
     font-size: 10rem;

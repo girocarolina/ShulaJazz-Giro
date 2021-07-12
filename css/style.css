@@ -30,6 +30,10 @@ html {
   background: #E04316;
   margin: 0 auto; }
 
+.redes:hover {
+  scale: 130%;
+  transform: rotate(20deg); }
+
 /* FUENTES */
 @font-face {
   font-family: 'Montserrat-Medium';
@@ -52,7 +56,7 @@ a {
     color: #070707 !important; }
 
 h1 {
-  font-family: "Itim";
+  font-family: "Playfair Display";
   color: #fafafa !important;
   animation-duration: 1.5s;
   animation-name: aparecer; }
@@ -64,13 +68,11 @@ h1 {
     opacity: 1; } }
 
 h2 {
-  font-family: "Itim";
-  color: #fafafa !important;
-  animation: animate__bounceInLeft;
-  animation-duration: 1s; }
+  font-family: "Playfair Display";
+  color: #fafafa !important; }
 
 h4 {
-  font-family: "Itim";
+  font-family: "Playfair Display";
   color: #fafafa !important;
   font-style: italic;
   animation-duration: 1.5s;
@@ -81,6 +83,10 @@ h4 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.showsH2 {
+  font-family: "Montserrat-Bold";
+  color: #070707 !important; }
 
 .error404 {
   font-family: "Montserrat-Bold";

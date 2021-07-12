@@ -34,3 +34,9 @@ html {
     background: map-get($colores, acento );
     margin: 0 auto;
 }
+.redes {
+    &:hover {
+        scale: 130%;
+        transform: rotate(20deg);
+    } 
+}

@@ -150,13 +150,13 @@
                 </div>
 
                 <div class="galeriaBanda row mt-4">
-                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteFede.PNG"
+                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteFede.jpg"
                         alt="Imagen de Fede" loading="lazy">
-                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteMartin.PNG"
+                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteMartin.jpg"
                         alt="Imagen de Martin" loading="lazy">
-                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteMateo.PNG"
+                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteMateo.jpg"
                         alt="Imagen de Mateo" loading="lazy">
-                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteRaul.PNG"
+                    <img class="imgBanda col-lg-3 d-none d-lg-block" src="images/integranteRaul.jpg"
                         alt="Imagen de Raul" loading="lazy">
                 </div>
             </div>
@@ -285,15 +285,36 @@
                 <div class="marcadorSection">
                     <div class="lineaTitulo mt-4"></div>
                     <h2 class="wow animate__animated animate__slideInLeft h2Contacto tituloSection text-center mb-5">Contactanos</h2>
-                </div>
+                </div>                
 
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
-                        <div class="contactos fs-5 my-5 d-flex flex-column">
-                            <a class="text-decoration-none" href="mailto:shulajazzsudaca@gmail.com">Mail:
-                                shulajazzsudaca@gmail.com</a>
-                            <a class="text-decoration-none" href="https://wa.me/+5493512180504">Tel: 0351-152180504</a>
+                    <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">                        
+                        <div id="cnt_form">
+                            <form id="contact-form" action="enviar.php" method="POST" name="contact-form" 
+                            class="d-flex flex-column justify-content-center align-items-center m-auto">
+                                <div class="mb-4">
+                                    <input type="text" id="name" name="nombre" class="form-control name-field" required="required" placeholder="Tu nombre">
+                                </div>
+
+                                <div class="mb-4">
+                                    <input type="email" name="user-email" id="mail" class="form-control mail-field" required="required" placeholder="Tu email">
+                                </div>
+
+                                <div class="mb-4">
+                                    <input type="phone" name="user-telefono" id="telefono" class="form-control phone-field" required="required" placeholder="Tu telefono">
+                                </div>
+
+                                <div class="mb-4">
+                                    <textarea name="mensaje" id="msg" class="form-control" required="required" placeholder="Mensaje o consulta" rows="6"></textarea>
+                                </div>
+
+                                <div>
+                                    <button type="submit" class="btn mt-4 mx-auto p-4 p-md-3 p-sm-3 botonPrincipal">Enviar</button> 
+                                </div>                                                
+                            </form>
+
                         </div>
+                        
 
                         <div class="socialMedia fs-5 my-5">
                             <p class="parrafoMedia">¡Seguinos en nuestras redes!</p>

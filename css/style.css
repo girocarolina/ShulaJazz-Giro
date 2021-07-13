@@ -140,10 +140,9 @@ footer {
 #laBanda {
   background-color: #070707; }
   #laBanda .imagenMedia img {
-    border-radius: 10px; }
-
-.galeriaBanda .imgBanda {
-  border-radius: 10px !important; }
+    border-radius: 20px; }
+  #laBanda .galeriaBanda .imgBanda {
+    border-radius: 20px; }
 
 /* TERCERA SECTION: VIDEOS */
 #videos {
@@ -154,14 +153,14 @@ footer {
   background-position: center; }
   #videos .youTube {
     height: 50vh;
-    border-radius: 10px !important; }
+    border-radius: 20px !important; }
 
 /* CUARTA SECTION: PROXIMOS SHOWS */
 #shows {
   background-color: #070707; }
   #shows .proximosShows img {
     width: 100%;
-    border-radius: 10px; }
+    border-radius: 20px; }
 
 /* QUINTA SECTION: CONTACTO */
 #contacto {
@@ -172,7 +171,13 @@ footer {
   background-position: center; }
 
 .imgContacto img {
-  border-radius: 10px; }
+  border-radius: 20px; }
+
+form input, form textarea {
+  padding: 10px;
+  width: 50vw;
+  font-size: 18px;
+  border: none; }
 
 /* PAGINA LOS INTEGRANTES */
 #todosLosIntegrantes {

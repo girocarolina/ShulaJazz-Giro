@@ -179,6 +179,9 @@ form input, form textarea {
   font-size: 18px;
   border: none; }
 
+.socialMedia .icon {
+  width: 40px; }
+
 /* PAGINA LOS INTEGRANTES */
 #todosLosIntegrantes {
   background-color: #070707; }

@@ -22,62 +22,77 @@
 }
 
 a {
-    @include fuentes('Montserrat-Bold', map-get($colores, blanco ) );
+    @include fuentes('Montserrat-Bold', map-get($colores, blanco));
     text-transform: uppercase;
     text-decoration: none;
-    &:hover{
-        color: map-get($colores, negro ) !important;
+
+    &:hover {
+        color: map-get($colores, negro) !important;
     }
 }
 
 h1 {
-    @include fuentes('Playfair Display', map-get($colores, blanco ) );
+    @include fuentes('Playfair Display', map-get($colores, blanco));
     animation-duration: 1.5s;
     animation-name: aparecer;
+
     @keyframes aparecer {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 }
 
 h2 {
-    @include fuentes('Playfair Display', map-get($colores, blanco ) );
+    @include fuentes('Playfair Display', map-get($colores, blanco));
 }
 
 h4 {
-    @include fuentes('Playfair Display', map-get($colores, blanco ) );
+    @include fuentes('Playfair Display', map-get($colores, blanco));
     font-style: italic;
     animation-duration: 1.5s;
     animation-name: aparecer;
+
     @keyframes aparecer {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 }
+
 .showsH2 {
-    @include fuentes('Montserrat-Bold', map-get($colores, negro ) );
+    @include fuentes('Montserrat-Bold', map-get($colores, negro));
 }
+
 .error404 {
-    @include fuentes('Montserrat-Bold', map-get($colores, acento ) );
+    @include fuentes('Montserrat-Bold', map-get($colores, acento));
     font-size: 10rem;
     font-weight: 900;
 }
 
 .suberror404 {
-    @include fuentes('Montserrat-Bold', map-get($colores, negro ) );
+    @include fuentes('Montserrat-Bold', map-get($colores, negro));
 
 }
 
 .texterror404 {
-    @include fuentes('Montserrat-Bold', map-get($colores, negro ) );
+    @include fuentes('Montserrat-Bold', map-get($colores, negro));
 
 }
 
 .subtitulo {
-    @include fuentes('Montserrat-Regular', map-get($colores, negro ) );
-    font-size: 20px;
+    @include fuentes('Montserrat-Bold', map-get($colores, negro));
+    font-size: 18px;
 }
 
-p{
-    @include fuentes('Montserrat-Regular', map-get($colores, blanco ) );
+p {
+    @include fuentes('Montserrat-Regular', map-get($colores, blanco));
 }
